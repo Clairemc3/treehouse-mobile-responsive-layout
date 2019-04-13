@@ -1,1 +1,1 @@
-# treehouse-mobile-responsive-layout
+# Tree house project 2 : Mobile responsove layout

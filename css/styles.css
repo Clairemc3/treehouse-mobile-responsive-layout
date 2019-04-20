@@ -3,8 +3,122 @@
   Base Element Styles
 ==================================== */
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
     color: #7f7f7f
 }
+
+img {
+   max-width: 100%;
+   margin-bottom: 2em;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    color: #7f7f7f;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.name {
+    text-align: center;
+}
+
+
+.main-nav li {
+    list-style: none;
+}
+
+/* ----Footer styles ---- */
+
+.footer-name {
+    float: left;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.footer-nav {
+    float: right;
+}
+
+.footer-nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7f7f7f;
+}
+
+/* ---- Layout Containers ---- */
+
+.introduction {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.portfolio,
+.contact,
+.main-header {
+    text-align: center;
+    margin-bottom: 4em;
+    padding-left:1em;
+    padding-right: 1em;
+}
+
+.main-footer {
+    padding: 3em 0;
+    margin: 0 1.5em;
+    border-top: solid lightgrey 1px;
+}
+
+.portfolio-item {
+    padding-bottom: 2em;
+}
+
+
+
+/* ---- Page Elements ---- */
+.section-heading {
+    margin-bottom: 2em;
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+

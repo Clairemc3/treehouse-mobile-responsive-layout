@@ -34,6 +34,10 @@ a {
 
 /* ---- Navigation ---- */
 
+.main-nav {
+    padding-left: 0;
+}
+
 .main-nav a {
     display: block;
     text-decoration: none;
@@ -118,9 +122,3 @@ a {
     display: table;
     clear: both;
 }
-
-
-
-
-
-

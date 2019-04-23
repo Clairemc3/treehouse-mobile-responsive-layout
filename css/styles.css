@@ -53,7 +53,7 @@ a {
     list-style: none;
 }
 
-/* ----Footer styles ---- */
+/* ----Footer ---- */
 
 .footer-name {
     float: left;
@@ -137,13 +137,29 @@ a {
 
 @media (min-width: 768px) {
 
+
+/* ---- Navigation ---- */
+
+    .main-nav li {
+        display: inline-block;
+    }
+
+/* ---- Layout Containers ---- */
+
     .container {
         width: 95%;
         margin: auto;
      }
 
-    .main-nav li {
+    .introduction-text {
         display: inline-block;
+        width: 60%;
+        text-align: left;
+    }
+
+    .introduction-image {
+        float: right;
+        width: 40%;
     }
 
     .col,
@@ -155,22 +171,6 @@ a {
     .col {
         float: left;
         width: 50%;
-        /* padding: 0 1%; */
-    }
-
-    .introduction {
-        text-align: left;
-    }
-
-    .introduction-text {
-       display: inline-block;
-       width: 60%;
-       /* padding-right: 1em; */
-    }
-
-    .introduction-image {
-        float: right;
-        width: 40%;
     }
 
     .portfolio-item p {
@@ -184,9 +184,13 @@ a {
         margin-right: auto;
     }
 
+    /* ---- Page Elements ---- */
+
     .back-to-top {
         display: none;
     }
+
+    /* ----Footer ---- */
 
     .main-footer {
         padding-top: 1em;

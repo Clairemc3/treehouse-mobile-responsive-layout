@@ -135,8 +135,8 @@ a {
   Media Queries
 ==================================== */
 
+/* Tablet size */
 @media (min-width: 768px) {
-
 
 /* ---- Navigation ---- */
 
@@ -148,7 +148,7 @@ a {
 
     .container {
         width: 95%;
-        margin: auto;
+        margin: 0 auto;
      }
 
     .introduction-text {
@@ -204,5 +204,39 @@ a {
         display: inline-block;
         padding: 0 1em;
     }
-
 }
+
+/* >Desktop Size */
+@media (min-width: 1024px) {
+
+    .container,
+    .main-footer {
+        width: 90%;
+        max-width: 1150px;
+     }
+
+    .col {
+        width: 33.2%;
+    }
+
+    .name {
+        float: left;
+        margin-top: .9em;
+    }
+
+    .nav-bar {
+        margin-top: 1.2em;
+        height: 120px;
+    }
+
+    .main-header {
+        width: 90%;
+        max-width: 1150px;
+        margin: auto;
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+ }

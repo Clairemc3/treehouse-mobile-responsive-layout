@@ -23,7 +23,6 @@ h3 {
     margin-top: 0;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -86,7 +85,6 @@ a {
     color: #52bab4;
 }
 
-
 .footer-links li {
     display: none;
 }
@@ -97,13 +95,21 @@ a {
     margin-top: 0;
 }
 
+.introduction,
+.portfolio,
+.contact,
+.skills {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 .introduction {
     text-align: center;
     margin-bottom: 3em;
-    font-family:'Maven Pro',Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .portfolio,
+.skills,
 .contact,
 .main-header {
     text-align: center;
@@ -139,6 +145,30 @@ a {
 .contact p {
     color: #7f7f7f;
 }
+
+.introduction-text {
+    font-family:'Maven Pro',Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 200%;
+}
+
+
+.skills ul {
+    padding-left: 0;
+}
+
+.skills li {
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+    padding: 1em 1em;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Maven Pro',Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1em;
+}
+
+.skills li:nth-child(even) {background: #675a85}
+.skills li:nth-child(odd) {background: #e0ab26}
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
@@ -205,6 +235,10 @@ a {
 
     .back-to-top {
         display: none;
+    }
+
+    .skills li {
+        width: auto;
     }
 
     /* ----Footer ---- */

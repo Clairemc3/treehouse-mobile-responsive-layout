@@ -12,12 +12,14 @@
     <body>
         <header class="main-header">
             <div class="nav-bar">
-                <h1 class="name">Student Name</h1>
-                <ul class="main-nav clearfix">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <div class="container">
+                    <h1 class="name">Student Name</h1>
+                    <ul class="main-nav clearfix">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="introduction clearfix">
                 <div class="introduction-image">
@@ -32,7 +34,7 @@
         <!-- Main content -->
         <main class="container">
         <!-- Portfilio items -->
-            <div class="portfolio clearfix">
+            <div class="portfolio clearfix" id="portfolio">
                 <h2 class="section-heading">Portfolio</h2>
                 <!-- Portfilio item 1 -->
                 <div class="portfolio-item col">
@@ -78,7 +80,7 @@
             </div>
 
             <!-- Contact details -->
-            <div class="contact">
+            <div class="contact" id="contact">
                 <h2 class="section-heading">Contact</h2>
                 <p>If you're interesed in chatting or want more information about what I've been working on, I'd love to hear from you.</p>
                 <p>Phone <strong>+1 (111)555-1234</strong></p>
@@ -95,8 +97,8 @@
                 <a class="back-to-top" href="#">Back to top</a>
                 <ul class="footer-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </footer>
